@@ -28,7 +28,7 @@ class Exam{
     }
 
     ~Exam(){
-        cout << "Destructor Called...." << endl;
+        cout << "Destructor called for " << stdName << endl;
         delete[] stdName;
         delete[] examDate;
     }
